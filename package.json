@@ -1,0 +1,27 @@
+{
+  "name": "Tailwind-Collection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build assets/css/tailwind.css -o assets/css/styles.css",
+    "prod": "cross-env NODE_ENV=production postcss assets/css/tailwind.css -o assets/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebeautifultauren/tailwind-collection.git"
+  },
+  "keywords": [],
+  "author": "Ohad Osnat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thebeautifultauren/tailwind-collection/issues"
+  },
+  "homepage": "https://github.com/thebeautifultauren/tailwind-collection#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.3"
+  }
+}
