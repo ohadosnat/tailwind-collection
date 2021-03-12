@@ -19,7 +19,6 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'awaken-mob': "url('../img/img_awaken-my-love-mob.jpg')",
-        'awaken-desk': "url('../img/img_awaken-my-love-desktop.jpg')",
       })
     },
   },
