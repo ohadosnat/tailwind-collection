@@ -19,7 +19,13 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'awaken-mob': "url('../img/img_awaken-my-love-mob.jpg')",
-      })
+      }),
+      colors: {
+        form: {
+          bg: "#FFF75E",
+          btn: "#41E9EA",
+        }
+      }
     },
   },
   variants: {
