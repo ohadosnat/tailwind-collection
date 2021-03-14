@@ -18,20 +18,25 @@ module.exports = {
         'main': "min-content auto min-content",
       },
       backgroundImage: theme => ({
-        'awaken-mob': "url('../img/img_awaken-my-love-mob.jpg')",
-        'bladerunner': "url('../img/img_blade-runner.jpg')",
-        'bladerunner-mob': "url('../img/img_blade-runner-mob.jpg')",
-        'ladyonfire': "url('../img/img_PortraitofaLadyonFire.jpg')",
-        'soundofmetal': "url('../img/img_sound-of-metal.jpg')",
-        'minari': "url('../img/img_minari.jpg')",
-        'burning': "url('../img/img_burning.jpg')",
-        'uncutgems': "url('../img/img_uncut-gems.jpg')",
-        '1917': "url('../img/img_1917.jpg')",
+        'awaken-mob': "url('../img/music/img_awaken-my-love-mob.jpg')",
+        'bladerunner': "url('../img/movie/img_blade-runner.jpg')",
+        'bladerunner-mob': "url('../img/movie/img_blade-runner-mob.jpg')",
+        'ladyonfire': "url('../img/movie/img_PortraitofaLadyonFire.jpg')",
+        'soundofmetal': "url('../img/movie/img_sound-of-metal.jpg')",
+        'minari': "url('../img/movie/img_minari.jpg')",
+        'burning': "url('../img/movie/img_burning.jpg')",
+        'uncutgems': "url('../img/movie/img_uncut-gems.jpg')",
+        'prd-circle': "url('../img/product/bg_circle-1.svg')",
+        'prd-circle-2': "url('../img/product/bg_circle-2.svg')",
       }),
       colors: {
         form: {
           bg: "#FFF75E",
           btn: "#41E9EA",
+        },
+        prd: {
+          main: "#C975B1",
+          dark: "#9E5188",
         }
       }
     },
