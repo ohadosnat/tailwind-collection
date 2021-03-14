@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [],
+  purge: ['./pages/*.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -25,6 +25,7 @@ module.exports = {
         'soundofmetal': "url('../img/movie/img_sound-of-metal.jpg')",
         'minari': "url('../img/movie/img_minari.jpg')",
         'burning': "url('../img/movie/img_burning.jpg')",
+        '1917': "url('../img/movie/img_1917.jpg')",
         'uncutgems': "url('../img/movie/img_uncut-gems.jpg')",
         'prd-circle': "url('../img/product/bg_circle-1.svg')",
         'prd-circle-2': "url('../img/product/bg_circle-2.svg')",
