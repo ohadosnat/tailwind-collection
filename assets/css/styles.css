@@ -4255,6 +4255,10 @@ video {
   background-color: rgba(65, 233, 234, var(--tw-bg-opacity));
 }
 
+.bg-1917 {
+  background-image: url('../img/img_1917.jpg');
+}
+
 .bg-none {
   background-image: none;
 }
@@ -4293,6 +4297,34 @@ video {
 
 .bg-awaken-mob {
   background-image: url('../img/img_awaken-my-love-mob.jpg');
+}
+
+.bg-bladerunner {
+  background-image: url('../img/img_blade-runner.jpg');
+}
+
+.bg-bladerunner-mob {
+  background-image: url('../img/img_blade-runner-mob.jpg');
+}
+
+.bg-ladyonfire {
+  background-image: url('../img/img_PortraitofaLAdyonFire.jpg');
+}
+
+.bg-soundofmetal {
+  background-image: url('../img/img_sound-of-metal.jpg');
+}
+
+.bg-minari {
+  background-image: url('../img/img_minari.jpg');
+}
+
+.bg-burning {
+  background-image: url('../img/img_burning.jpg');
+}
+
+.bg-uncutgems {
+  background-image: url('../img/img_uncut-gems.jpg');
 }
 
 .from-transparent {
@@ -35270,6 +35302,10 @@ video {
     background-color: rgba(65, 233, 234, var(--tw-bg-opacity));
   }
 
+  .sm\:bg-1917 {
+    background-image: url('../img/img_1917.jpg');
+  }
+
   .sm\:bg-none {
     background-image: none;
   }
@@ -35308,6 +35344,34 @@ video {
 
   .sm\:bg-awaken-mob {
     background-image: url('../img/img_awaken-my-love-mob.jpg');
+  }
+
+  .sm\:bg-bladerunner {
+    background-image: url('../img/img_blade-runner.jpg');
+  }
+
+  .sm\:bg-bladerunner-mob {
+    background-image: url('../img/img_blade-runner-mob.jpg');
+  }
+
+  .sm\:bg-ladyonfire {
+    background-image: url('../img/img_PortraitofaLAdyonFire.jpg');
+  }
+
+  .sm\:bg-soundofmetal {
+    background-image: url('../img/img_sound-of-metal.jpg');
+  }
+
+  .sm\:bg-minari {
+    background-image: url('../img/img_minari.jpg');
+  }
+
+  .sm\:bg-burning {
+    background-image: url('../img/img_burning.jpg');
+  }
+
+  .sm\:bg-uncutgems {
+    background-image: url('../img/img_uncut-gems.jpg');
   }
 
   .sm\:from-transparent {
@@ -66199,6 +66263,10 @@ video {
     background-color: rgba(65, 233, 234, var(--tw-bg-opacity));
   }
 
+  .md\:bg-1917 {
+    background-image: url('../img/img_1917.jpg');
+  }
+
   .md\:bg-none {
     background-image: none;
   }
@@ -66237,6 +66305,34 @@ video {
 
   .md\:bg-awaken-mob {
     background-image: url('../img/img_awaken-my-love-mob.jpg');
+  }
+
+  .md\:bg-bladerunner {
+    background-image: url('../img/img_blade-runner.jpg');
+  }
+
+  .md\:bg-bladerunner-mob {
+    background-image: url('../img/img_blade-runner-mob.jpg');
+  }
+
+  .md\:bg-ladyonfire {
+    background-image: url('../img/img_PortraitofaLAdyonFire.jpg');
+  }
+
+  .md\:bg-soundofmetal {
+    background-image: url('../img/img_sound-of-metal.jpg');
+  }
+
+  .md\:bg-minari {
+    background-image: url('../img/img_minari.jpg');
+  }
+
+  .md\:bg-burning {
+    background-image: url('../img/img_burning.jpg');
+  }
+
+  .md\:bg-uncutgems {
+    background-image: url('../img/img_uncut-gems.jpg');
   }
 
   .md\:from-transparent {
@@ -97128,6 +97224,10 @@ video {
     background-color: rgba(65, 233, 234, var(--tw-bg-opacity));
   }
 
+  .lg\:bg-1917 {
+    background-image: url('../img/img_1917.jpg');
+  }
+
   .lg\:bg-none {
     background-image: none;
   }
@@ -97166,6 +97266,34 @@ video {
 
   .lg\:bg-awaken-mob {
     background-image: url('../img/img_awaken-my-love-mob.jpg');
+  }
+
+  .lg\:bg-bladerunner {
+    background-image: url('../img/img_blade-runner.jpg');
+  }
+
+  .lg\:bg-bladerunner-mob {
+    background-image: url('../img/img_blade-runner-mob.jpg');
+  }
+
+  .lg\:bg-ladyonfire {
+    background-image: url('../img/img_PortraitofaLAdyonFire.jpg');
+  }
+
+  .lg\:bg-soundofmetal {
+    background-image: url('../img/img_sound-of-metal.jpg');
+  }
+
+  .lg\:bg-minari {
+    background-image: url('../img/img_minari.jpg');
+  }
+
+  .lg\:bg-burning {
+    background-image: url('../img/img_burning.jpg');
+  }
+
+  .lg\:bg-uncutgems {
+    background-image: url('../img/img_uncut-gems.jpg');
   }
 
   .lg\:from-transparent {
@@ -128057,6 +128185,10 @@ video {
     background-color: rgba(65, 233, 234, var(--tw-bg-opacity));
   }
 
+  .xl\:bg-1917 {
+    background-image: url('../img/img_1917.jpg');
+  }
+
   .xl\:bg-none {
     background-image: none;
   }
@@ -128095,6 +128227,34 @@ video {
 
   .xl\:bg-awaken-mob {
     background-image: url('../img/img_awaken-my-love-mob.jpg');
+  }
+
+  .xl\:bg-bladerunner {
+    background-image: url('../img/img_blade-runner.jpg');
+  }
+
+  .xl\:bg-bladerunner-mob {
+    background-image: url('../img/img_blade-runner-mob.jpg');
+  }
+
+  .xl\:bg-ladyonfire {
+    background-image: url('../img/img_PortraitofaLAdyonFire.jpg');
+  }
+
+  .xl\:bg-soundofmetal {
+    background-image: url('../img/img_sound-of-metal.jpg');
+  }
+
+  .xl\:bg-minari {
+    background-image: url('../img/img_minari.jpg');
+  }
+
+  .xl\:bg-burning {
+    background-image: url('../img/img_burning.jpg');
+  }
+
+  .xl\:bg-uncutgems {
+    background-image: url('../img/img_uncut-gems.jpg');
   }
 
   .xl\:from-transparent {
@@ -158986,6 +159146,10 @@ video {
     background-color: rgba(65, 233, 234, var(--tw-bg-opacity));
   }
 
+  .\32xl\:bg-1917 {
+    background-image: url('../img/img_1917.jpg');
+  }
+
   .\32xl\:bg-none {
     background-image: none;
   }
@@ -159024,6 +159188,34 @@ video {
 
   .\32xl\:bg-awaken-mob {
     background-image: url('../img/img_awaken-my-love-mob.jpg');
+  }
+
+  .\32xl\:bg-bladerunner {
+    background-image: url('../img/img_blade-runner.jpg');
+  }
+
+  .\32xl\:bg-bladerunner-mob {
+    background-image: url('../img/img_blade-runner-mob.jpg');
+  }
+
+  .\32xl\:bg-ladyonfire {
+    background-image: url('../img/img_PortraitofaLAdyonFire.jpg');
+  }
+
+  .\32xl\:bg-soundofmetal {
+    background-image: url('../img/img_sound-of-metal.jpg');
+  }
+
+  .\32xl\:bg-minari {
+    background-image: url('../img/img_minari.jpg');
+  }
+
+  .\32xl\:bg-burning {
+    background-image: url('../img/img_burning.jpg');
+  }
+
+  .\32xl\:bg-uncutgems {
+    background-image: url('../img/img_uncut-gems.jpg');
   }
 
   .\32xl\:from-transparent {

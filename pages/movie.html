@@ -6,47 +6,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/styles.css">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#">
     <title>Movie App</title>
 </head>
 
-<body>
-
-    <div>
-        <!-- Menu -->
-        <div>
-            <a href="#">Movies</a>
-            <a href="#">TV Shows</a>
-            <a href="#">Playlists</a>
-            <a href="#">Settings</a>
-        </div>
-        <!-- Main Content -->
-        <div>
-            <h4>Critically Acclaimed Movies</h4>
-            <h1>Blade Runner 2049</h1>
-            <div>
-                <h5>2h 44m</h5>
-                <h5>R</h5> <!-- Consider to add the R Rated Logo-->
+<body class="font-roboto overflow-x-hidden text-white">
+    <div
+        class="relative bg-bladerunner-mob w-full h-full bg-no-repeat bg-cover bg-right bg-fixed z-0 lg:bg-bladerunner lg:bg-center">
+        <!-- Black Overlay -->
+        <div class="absolute bg-black opacity-40 w-full h-full -z-1"></div>
+        <main class="p-4 md:p-16 md:pl-10 md:pt-10">
+            <!-- Menu -->
+            <div
+                class="text-sm w-full flex justify-between items-center md:justify-start md:space-x-5 md:text-lg lg:space-x-10 lg:text-xl">
+                <a href="index.html" class="hover:text-pink-400 global-transition">
+                    <svg class="w-7 h-7 stroke-current md:w-10 md:h-10" viewBox="0 0 32 32" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z"
+                            stroke-width="1" stroke-miterlimit="10" />
+                        <path d="M15.2426 20.2426L11 16L15.2426 11.7574" stroke-width="1" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M11 16H21" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+                <a href="#"
+                    class="uppercase border-b border-transparent hover:border-pink-300 global-transition">Movies</a>
+                <a href="#" class="uppercase border-b border-transparent hover:border-pink-300 global-transition">TV
+                    Shows</a>
+                <a href="#" class="uppercase border-b border-transparent hover:border-pink-300 global-transition">My
+                    List</a>
+                <a href="#"
+                    class="uppercase border-b border-transparent hover:border-pink-300 global-transition">Settings</a>
             </div>
-            <p>Officer K (Ryan Gosling), a new blade runner for the Los Angeles Police Department, unearths a
-                long-buried secret that has the potential to plunge what's left of society into chaos. His discovery
-                leads him on a quest to find Rick Deckard (Harrison Ford), a former blade runner who's been missing for
-                30 years.
-            </p>
-            <p>Director: Denis Villeneuve</p>
-            <p>Cast: <a href="">Ryan Gosling</a>, <a href="">Harrison Ford</a>, <a href="">Ana de Armas</a></p>
-            <div>
-                <button>Watch Now</button>
-                <button>Add to List</button>
+            <!-- Main Content -->
+            <div class="text-center mt-52 md:text-left md:mt-40 lg:w-8/12 lg:mt-96">
+                <h4 class="text-sm font-light md:text-base lg:text-xl">Critically Acclaimed Movies</h4>
+                <h1 class="text-3xl font-medium tracking-wide md:text-5xl md:pb-1 lg:text-6xl lg:mt-3">Blade Runner 2049
+                </h1>
+                <div class="flex items-center justify-center space-x-4 pb-3 md:justify-start lg:text-lg lg:mb-3">
+                    <h5>2h 44m</h5>
+                    <h5>R</h5> <!-- Consider to add the R Rated Logo-->
+                </div>
+                <p class="text-sm font-light pb-2 md:text-base md:pb-4 lg:text-lg">Officer K (Ryan Gosling), a new blade
+                    runner for
+                    the
+                    Los Angeles
+                    Police
+                    Department, unearths a
+                    long-buried secret that has the potential to plunge what's left of society into chaos. His discovery
+                    leads him on a quest to find Rick Deckard (Harrison Ford), a former blade runner who's been missing
+                    for
+                    30 years.
+                </p>
+                <p class="text-xs font-light tracking-wide md:text-base lg:text-lg">
+                    <b>Director:</b>
+                    <a href="#" class="hover:text-pink-300 global-transition">Denis Villeneuve</a>
+                </p>
+                <p class="text-xs font-light tracking-wide md:text-base lg:text-lg">
+                    <b>Cast:</b>
+                    <a href="#" class="hover:text-pink-300 global-transition">Ryan Gosling</a>,
+                    <a href="#" class="hover:text-pink-300 global-transition">Harrison Ford</a>,
+                    <a href="#" class="hover:text-pink-300 global-transition">Ana de Armas</a>
+                </p>
+                <div class="pt-4 space-x-4 lg:mt-4">
+                    <button
+                        class="border-b border-pink-300 md:text-lg hover:text-pink-300 hover:border-white global-transition lg:text-2xl">Watch
+                        Now</button>
+                    <button
+                        class="border-b border-pink-300 md:text-lg hover:text-pink-300 hover:border-white global-transition lg:text-2xl">Add
+                        to
+                        List</button>
+                </div>
             </div>
-        </div>
-        <!-- Movie Suggestions -->
-        <div>
-            <h3></h3>
-            <div>
-                <h6>Lady Bird</h6>
-                <h6>1h 30m</h6>
+            <!-- Movie Suggestions -->
+            <div class="mt-6 lg:mt-14">
+                <h3 class="text-center font-medium text-lg mb-3 md:text-left md:text-xl lg:text-3xl lg:mb-5">More
+                    Critically
+                    Acclaimed
+                    Movies </h3>
+                <!-- Cards -->
+                <div class="space-y-3 md:space-y-0 md:grid md:grid-cols-2 md:gap-3 lg:grid-cols-3 2xl:grid-cols-6">
+                    <a href="#"
+                        class="overflow-hidden rounded-lg shadow-md  relative px-4 pt-24 pb-4 flex flex-col justify-start z-auto bg-ladyonfire bg-cover bg-no-repeat bg-left-top hover:scale-105 transform global-transition">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70 -z-1 ">
+                        </div>
+                        <h6 class="lg:text-lg">Portrait of a Lady on Fire</h6>
+                        <h6 class="font-light text-sm lg:text-base">2h</h6>
+                    </a>
+                    <a href="#"
+                        class="overflow-hidden rounded-lg shadow-md  relative px-4 pt-24 pb-4 flex flex-col justify-start z-0 bg-soundofmetal bg-cover bg-no-repeat bg-left-top hover:scale-105 transform global-transition">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70 -z-1 ">
+                        </div>
+                        <h6 class="lg:text-lg">Sound of Metal</h6>
+                        <h6 class="font-light text-sm lg:text-base">2h</h6>
+                    </a>
+                    <a href="#"
+                        class="overflow-hidden rounded-lg shadow-md  relative px-4 pt-24 pb-4 flex flex-col justify-start z-0 bg-minari bg-cover bg-no-repeat bg-left-top hover:scale-105 transform global-transition">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70 -z-1 ">
+                        </div>
+                        <h6 class="lg:text-lg">Minari</h6>
+                        <h6 class="font-light text-sm lg:text-base">1h 55m</h6>
+                    </a>
+                    <a href="#"
+                        class="overflow-hidden rounded-lg shadow-md  relative px-4 pt-24 pb-4 flex flex-col justify-start z-0 bg-burning bg-cover bg-no-repeat bg-left-top hover:scale-105 transform global-transition">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70 -z-1 ">
+                        </div>
+                        <h6 class="lg:text-lg">Burning </h6>
+                        <h6 class="font-light text-sm lg:text-base">2h 28m</h6>
+                    </a>
+                    <a href="#"
+                        class="overflow-hidden rounded-lg shadow-md  relative px-4 pt-24 pb-4 flex flex-col justify-start z-0 bg-uncutgems bg-cover bg-no-repeat bg-left-top hover:scale-105 transform global-transition">
+                        <div class="absolute inset-0 bg-gradient-to-bl from-transparent to-black opacity-70 -z-1 ">
+                        </div>
+                        <h6 class="lg:text-lg">Uncut Gems</h6>
+                        <h6 class="font-light text-sm lg:text-base">2h 15m</h6>
+                    </a>
+                    <a href="#"
+                        class="overflow-hidden rounded-lg shadow-md  relative px-4 pt-24 pb-4 flex flex-col justify-start z-0 bg-1917 bg-cover bg-no-repeat bg-left-top hover:scale-105 transform global-transition">
+                        <div class="absolute inset-0 bg-gradient-to-bl from-transparent to-black opacity-70 -z-1 ">
+                        </div>
+                        <h6 class="lg:text-lg">1917</h6>
+                        <h6 class="font-light text-sm lg:text-base">1h 59m</h6>
+                    </a>
+                </div>
             </div>
-        </div>
+        </main>
     </div>
 </body>
 
