@@ -21,7 +21,7 @@ module.exports = {
         'awaken-mob': "url('../img/img_awaken-my-love-mob.jpg')",
         'bladerunner': "url('../img/img_blade-runner.jpg')",
         'bladerunner-mob': "url('../img/img_blade-runner-mob.jpg')",
-        'ladyonfire': "url('../img/img_PortraitofaLAdyonFire.jpg')",
+        'ladyonfire': "url('../img/img_PortraitofaLadyonFire.jpg')",
         'soundofmetal': "url('../img/img_sound-of-metal.jpg')",
         'minari': "url('../img/img_minari.jpg')",
         'burning': "url('../img/img_burning.jpg')",
