@@ -9,17 +9,77 @@
     <title>Tailwind CSS Project Collection</title>
 </head>
 
-<body
-    class="bg-gray-100 text-center font-roboto text-gray-900 h-screen flex flex-col justify-center items-center select-none">
-    <h1 class="uppercase text-4xl mb-2 font-semibold">Tailwind CSS Project Collections</h1>
-    <a class="hover:text-pink-600 mt-5 text-2xl transition-all duration-300 ease-in-out" href="movie.html">
-        Movie App</a>
-    <a class="hover:text-pink-600 mt-5 text-2xl transition-all duration-300 ease-in-out" href="subscribe.html">
-        Subscribe Form</a>
-    <a class="hover:text-pink-600 mt-5 text-2xl transition-all duration-300 ease-in-out" href="car-music.html">
-        Car Music Player</a>
-    <a class="hover:text-pink-600 mt-5 text-2xl transition-all duration-300 ease-in-out" href="product.html">Product
-        Page</a>
+<body class="relative font-roboto md:h-screen grid md:grid-rows-2 md:grid-cols-2 text-white text-center">
+
+    <!-- Grid Boxes - Projects -->
+    <!-- Movie App -->
+    <div class="overflow-hidden w-full h-52 md:w-auto md:h-auto">
+        <div
+            class="bg-bladerunner bg-left-top bg-no-repeat bg-cover hover:scale-110 transform w-full h-full global-transition">
+            <div
+                class="hover:text-pink-600 text-2xl md:text-3xl font-normal tracking-wide global-transition w-full h-full bg-opacity-60 bg-black">
+                <a class="flex justify-center items-center h-full" href="movie.html">Movie App</a>
+            </div>
+        </div>
+    </div>
+    <!-- Music Player -->
+    <div class="overflow-hidden h-52 md:w-auto md:h-auto">
+        <div
+            class="bg-awaken-mob bg-center bg-no-repeat bg-cover hover:scale-110 transform w-full h-full global-transition">
+            <div
+                class="hover:text-pink-600 text-2xl md:text-3xl font-normal tracking-wide global-transition w-full h-full bg-opacity-60 bg-black">
+                <a class="flex justify-center items-center h-full" href="car-music.html">Music Player</a>
+            </div>
+        </div>
+    </div>
+    <!-- Main Title -->
+    <div
+        class="-my-6 md:-my-0 mx-2 md:px-4 py-2 border border-black bg-white flex items-center justify-center relative md:fixed md:top-1/2 md:left-1/2 md:-ml-80 md:-mt-8 text-black z-20">
+        <h1 class="uppercase text-base md:text-4xl font-semibold">Tailwind CSS Project Collections</h1>
+        <a href="#"
+            class="bg-white border border-black p-1 absolute -bottom-7 md:-bottom-9 md:-ml-10 transform hover:scale-110 global-transition hover:text-pink-400">
+            <svg class="w-6 h-6 md:w-8 md:h-8 stroke-current" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.5 29C11.2956 29 12.0587 28.6839 12.6213 28.1213C13.1839 27.5587 13.5 26.7956 13.5 26V20"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M21.5 29C20.7044 29 19.9413 28.6839 19.3787 28.1213C18.8161 27.5587 18.5 26.7956 18.5 26V20"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                    d="M19 20H21C21.7956 20 22.5587 20.3161 23.1213 20.8787C23.6839 21.4413 24 22.2044 24 23V24C24 24.7956 24.3161 25.5587 24.8787 26.1213C25.4413 26.6839 26.2044 27 27 27"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                    d="M13 20H11C10.2044 20 9.44129 20.3161 8.87868 20.8787C8.31607 21.4413 8 22.2044 8 23V24C8 24.7956 7.68393 25.5587 7.12132 26.1213C6.55871 26.6839 5.79565 27 5 27"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                    d="M8.06396 9.58797C7.71428 8.6832 7.57192 7.71153 7.64739 6.74447C7.72285 5.77741 8.0142 4.83958 8.50001 4C9.59164 3.99938 10.6658 4.27391 11.6233 4.79823C12.5808 5.32256 13.3907 6.07975 13.9781 6.99985V7H18.0219V6.99985C18.6094 6.07975 19.4192 5.32256 20.3767 4.79823C21.3342 4.27391 22.4084 3.99938 23.5 4C23.9858 4.83958 24.2772 5.77741 24.3526 6.74447C24.4281 7.71153 24.2857 8.6832 23.9361 9.58797V9.58797C24.6307 10.59 25.002 11.7807 25 13V14C25 15.5913 24.3679 17.1174 23.2426 18.2426C22.1174 19.3679 20.5913 20 19 20H13C11.4087 20 9.88259 19.3679 8.75737 18.2426C7.63215 17.1174 7.00001 15.5913 7.00001 14V13C6.99805 11.7807 7.36933 10.59 8.06396 9.58797L8.06396 9.58797Z"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+        </a>
+    </div>
+    <!-- Product Page -->
+    <div class="overflow-hidden h-52 md:w-auto md:h-auto">
+        <div class="relative w-full h-full hover:scale-110 transform global-transition">
+            <img src="../assets/img/product/bg_circle-1.svg" alt="" class="absolute -z-1 -bottom-12 right-0">
+            <img src="../assets/img/product/bg_circle-2.svg" alt="" class="absolute -z-1 -top-12 left-0">
+            <div
+                class="hover:text-pink-600 text-2xl md:text-3xl font-normal tracking-wide global-transition w-full h-full text-black">
+                <a class="flex justify-center items-center h-full" href="product.html">Product
+                    Page</a>
+            </div>
+        </div>
+
+    </div>
+    <!-- Subscribe Form -->
+    <div class="bg-form-bg overflow-hidden h-52 md:w-auto md:h-auto">
+        <div
+            class="text-2xl md:text-3xl font-normal tracking-wide w-full h-full text-black relative flex justify-center items-center hover:text-pink-400 global-transition hover:scale-110 transform">
+            <h6
+                class="absolute flex justify-center items-center z-0 transform translate-x-1 translate-y-1 text-form-btn select-none">
+                Subscribe Form</h6>
+            <a class="flex justify-center items-center h-full w-full z-10" href="subscribe.html">Subscribe Form</a>
+        </div>
+    </div>
 </body>
 
 </html>
